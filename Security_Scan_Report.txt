@@ -1,0 +1,36 @@
+=======================================================
+AUTOMATED WEB SECURITY SCANNER
+=======================================================
+Website: https://example.com
+Final URL: https://example.com/
+Date: 2026-10-28 11:17:28
+HTTP Status: 200
+
+--- HTTPS SECURITY ---
+[PASS] HTTPS is enabled
+
+--- SECURITY HEADERS ---
+[WARNING] Missing Content-Security-Policy
+Purpose: Helps protect against XSS
+[WARNING] Missing Strict-Transport-Security
+Purpose: Enforces HTTPS
+[WARNING] Missing X-Content-Type-Options
+Purpose: Prevents MIME sniffing
+[WARNING] Missing X-Frame-Options
+Purpose: Helps prevent clickjacking
+[WARNING] Missing Referrer-Policy
+Purpose: Controls referrer information
+[WARNING] Missing Permissions-Policy
+Purpose: Restricts browser features
+
+--- CORS SECURITY ---
+[INFO] No Access-Control-Allow-Origin header found.
+
+--- COOKIE SECURITY ---
+[INFO] No cookies were set in this response.
+
+--- SECURITY SCORE ---
+Security Configuration Score: 14.29%
+Assessment: HIGH CONFIGURATION RISK
+
+Note: This is a basic configuration check, not a complete vulnerability assessment.
